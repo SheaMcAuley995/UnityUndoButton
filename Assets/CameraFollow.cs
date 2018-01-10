@@ -16,6 +16,6 @@ public class CameraFollow : MonoBehaviour {
 	void Update () {
 
         transform.position = player.transform.position + offset;
-
+        //transform.Rotate(40,40,40);
     }
 }
